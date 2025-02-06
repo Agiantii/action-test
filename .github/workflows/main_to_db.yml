@@ -36,7 +36,7 @@ jobs:
       - name: Ensure Res Directory Exists
         run: mkdir -p res
 
-      - name: Move Result to Res Directory
+      - name: Move Result to Res Directory..
         run: |
           mv result.txt res/
 
